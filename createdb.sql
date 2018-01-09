@@ -1,4 +1,4 @@
-CREATE DB test_upload;
+CREATE DATABASE test_upload;
 
 use test_upload;
 
