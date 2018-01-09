@@ -2,8 +2,8 @@ CREATE DATABASE test_upload;
 
 use test_upload;
 
-CREATE TABLE images (
-    id int NOT NULL (10) AUTO_INCREMENT,
-    image varchar (500),
-    PRIMARY KEY (id)
+CREATE TABLE `images` (
+	`id` int (30) NOT NULL AUTO_INCREMENT,
+	`image` varchar(255) NOT NULL,
+    PRIMARY KEY (`id`)
 )
